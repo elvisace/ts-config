@@ -5,9 +5,6 @@
   "main": "tsconfig.json",
   "author": "Juan Garcia",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
     "typescript": "^3.9.6"
   },
