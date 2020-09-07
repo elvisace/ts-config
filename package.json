@@ -1,5 +1,5 @@
 {
-  "name": "@orgname/ts-config",
+  "name": "@standardorg/ts-config",
   "version": "0.0.0",
   "description": "TSConfig",
   "main": "tsconfig.json",
@@ -31,9 +31,5 @@
   },
   "scripts": {
     "semantic-release": "semantic-release"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/orgname/ts-config.git"
   }
 }

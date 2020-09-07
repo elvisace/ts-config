@@ -8,17 +8,17 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v2
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.0
         with:
-          node-version: 10
+          node-version: 12
 
       - name: Installation
         run: yarn
 
       - name: Release
-        run: npx semantic-release
+        run: npx semantic-release 
