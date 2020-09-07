@@ -1,6 +1,6 @@
 {
   "name": "@standardorg/ts-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TS Config",
   "main": "tsconfig.json",
   "author": "Juan Garcia",
