@@ -1,7 +1,7 @@
 {
   "name": "@standardorg/ts-config",
   "version": "1.0.0",
-  "description": "TSConfig",
+  "description": "TS Config",
   "main": "tsconfig.json",
   "author": "Juan Garcia",
   "license": "MIT",
